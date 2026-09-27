@@ -1,0 +1,40 @@
+{
+  "chosen_inchikey": "CRDHZEIXDLOKDC-UHFFFAOYSA-N",
+  "chosen_smiles": "CNc1ccc(C(=O)c2ccc(N(C)C)cc2)cc1",
+  "engine": "molscribe",
+  "image_id": "example001",
+  "model_error": "",
+  "prediction_count": 3,
+  "predictions": [
+    {
+      "canonical_smiles": "",
+      "engine": "molscribe",
+      "inchikey": "",
+      "raw_smiles": "*c1ccc(C(=O)c2ccc(N(C)C)cc2)cc1",
+      "rdkit_valid": false,
+      "reason": "wildcard_atom",
+      "variant": "raw.png"
+    },
+    {
+      "canonical_smiles": "CNc1ccc(C(=O)c2ccc(N(C)C)cc2)cc1",
+      "engine": "molscribe",
+      "inchikey": "CRDHZEIXDLOKDC-UHFFFAOYSA-N",
+      "raw_smiles": "CNc1ccc(C(=O)c2ccc(N(C)C)cc2)cc1",
+      "rdkit_valid": true,
+      "reason": "ok",
+      "variant": "enhanced.png"
+    },
+    {
+      "canonical_smiles": "",
+      "engine": "molscribe",
+      "inchikey": "",
+      "raw_smiles": "C=CC=C(C)C=C.CCC1C=CC(C(C)C2=CC=C(C34=CC3=C4)C=C2)=CC1",
+      "rdkit_valid": false,
+      "reason": "fragment_not_allowed",
+      "variant": "morph.png"
+    }
+  ],
+  "reason": "best_effort_single_variant",
+  "route": "printed",
+  "route_reason": "clean_light_background"
+}

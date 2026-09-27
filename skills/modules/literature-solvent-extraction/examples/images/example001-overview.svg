@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="430" viewBox="0 0 960 430" role="img" aria-labelledby="title description">
+  <title id="title">From redox data to a solvent you can verify</title>
+  <desc id="description">example001 overview. The input workbook contains oxidation at plus 0.86 volts and reduction at minus 2.20 volts versus SCE. The starting paper leads through a cited review to the original experiments. Acetonitrile is supported for both measurements. Deliverables include the updated workbook, an Excel review, and six ordered evidence images. This diagram summarizes the example; it is not a source screenshot.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0 6 3 0 6" fill="none" stroke="#62818e" stroke-width="1.3"/></marker>
+  </defs>
+  <rect x="1" y="1" width="958" height="428" rx="18" fill="#f4f7f9" stroke="#d7e2e7"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="36" y="35" font-size="12" letter-spacing="1.8" font-weight="700" fill="#44616e">LITERATURE SOLVENT EXTRACTION</text>
+    <rect x="756" y="17" width="168" height="27" rx="13.5" fill="#e0edeb"/>
+    <text x="840" y="35" text-anchor="middle" font-size="11" letter-spacing="1" font-weight="700" fill="#225e58">example001</text>
+    <text x="36" y="80" font-size="31" font-weight="700" fill="#193649">A solvent result you can trace.</text>
+
+    <rect x="36" y="108" width="272" height="258" rx="12" fill="#193649"/>
+    <text x="58" y="140" font-size="12" letter-spacing="1.5" font-weight="700" fill="#9bdcd7">01 / INPUT</text>
+    <text x="58" y="178" font-size="25" font-weight="700" fill="#ffffff">Your workbook</text>
+    <path d="M58 197H286" stroke="#496272"/>
+    <text x="58" y="227" font-size="15" fill="#b9cdd7">ID</text>
+    <text x="154" y="227" font-size="17" fill="#ffffff">example001</text>
+    <text x="58" y="259" font-size="15" fill="#b9cdd7">Oxidation</text>
+    <text x="154" y="259" font-size="17" fill="#ffffff">+0.86 V</text>
+    <text x="58" y="291" font-size="15" fill="#b9cdd7">Reduction</text>
+    <text x="154" y="291" font-size="17" fill="#ffffff">−2.20 V</text>
+    <text x="58" y="337" font-size="14" fill="#b9cdd7">Ground-state potentials vs. SCE</text>
+
+    <path d="M315 237H337" stroke="#62818e" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <rect x="344" y="108" width="272" height="258" rx="12" fill="#ffffff" stroke="#cddde3"/>
+    <text x="366" y="140" font-size="12" letter-spacing="1.5" font-weight="700" fill="#356c70">02 / TRACE</text>
+    <text x="366" y="178" font-size="25" font-weight="700" fill="#193649">Linked literature</text>
+    <path d="M366 197H594" stroke="#dce6ea"/>
+    <circle cx="374" cy="224" r="5" fill="#387d78"/>
+    <path d="M374 231V247" stroke="#a7c7c4" stroke-width="2"/>
+    <circle cx="374" cy="256" r="5" fill="#387d78"/>
+    <path d="M374 263V279" stroke="#a7c7c4" stroke-width="2"/>
+    <circle cx="374" cy="288" r="5" fill="#387d78"/>
+    <text x="391" y="230" font-size="17" fill="#284757">Starting paper</text>
+    <text x="391" y="262" font-size="17" fill="#284757">Cited review</text>
+    <text x="391" y="294" font-size="17" fill="#284757">Original experiments</text>
+    <text x="366" y="337" font-size="14" fill="#536f7c">Molecule → datum → method</text>
+
+    <path d="M623 237H645" stroke="#62818e" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <rect x="652" y="108" width="272" height="258" rx="12" fill="#ffffff" stroke="#a9cbc7"/>
+    <text x="674" y="140" font-size="12" letter-spacing="1.5" font-weight="700" fill="#356c70">03 / CHECK</text>
+    <text x="674" y="178" font-size="25" font-weight="700" fill="#193649">Supported result</text>
+    <text x="674" y="225" font-size="27" font-weight="700" fill="#236d62">acetonitrile</text>
+    <text x="674" y="256" font-size="15" fill="#284757">Oxidation: Supported</text>
+    <text x="674" y="283" font-size="15" fill="#284757">Reduction: Supported</text>
+    <path d="M674 301H902" stroke="#dce6ea"/>
+    <text x="674" y="325" font-size="14" fill="#536f7c">Excel review</text>
+    <text x="674" y="346" font-size="14" fill="#536f7c">+ 6 ordered evidence images</text>
+
+    <circle cx="43" cy="401" r="5" fill="#387d78"/>
+    <text x="57" y="406" font-size="14" fill="#3e5d6c">Your workbook is updated after evidence checks. The manual column stays yours.</text>
+  </g>
+</svg>

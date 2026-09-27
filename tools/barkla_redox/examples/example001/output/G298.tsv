@@ -1,0 +1,2 @@
+molecule_id	smiles	solvent	base_charge	base_multiplicity	oxidized_charge	oxidized_multiplicity	reduced_charge	reduced_multiplicity	G_base	G_oxidized	G_reduced	base_status	oxidized_status	reduced_status	base_normal_terminations	oxidized_normal_terminations	reduced_normal_terminations	base_frequency_status	oxidized_frequency_status	reduced_frequency_status	overall_status
+example001	CN(C)c1ccc(C(=O)c2ccc(N(C)C)cc2)cc1	acetonitrile	0	1	1	2	-1	2	-844.297425	-844.109724	-844.359728	complete	complete	complete	2	2	2	first5_positive	first5_positive	first5_positive	complete

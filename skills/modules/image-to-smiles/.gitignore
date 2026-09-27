@@ -1,0 +1,14 @@
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.log
+
+# Defensive ignores when the folder is used as a standalone repository.
+workspace/
+review/
+results/

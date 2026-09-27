@@ -1,0 +1,22 @@
+name: Dependency review
+on:
+  schedule:
+    - cron: '17 8 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  upstream:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: Check upstream releases without changing requirements
+        run: python skills/molecular-research-toolkit/scripts/environment.py updates --output workspace/dependency-review.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: dependency-review
+          path: workspace/dependency-review.json

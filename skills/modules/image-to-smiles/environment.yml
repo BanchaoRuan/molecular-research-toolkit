@@ -1,0 +1,11 @@
+# Compatibility entry for module maintainers; users use the toolkit INSTALL.md.
+# Run from this module directory. Package pins live only in requirements.txt.
+name: smiles_auto
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - tesseract>=5
+  - pip:
+      - -r requirements.txt

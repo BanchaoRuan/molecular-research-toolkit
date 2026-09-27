@@ -1,0 +1,80 @@
+{
+  "image_id": "example001",
+  "input_sha256": "ed149febbbcba0b4d80da2f3442d27588552350b0b3dbeaf63667dfd7bdc4377",
+  "input_size_pixels": [
+    435,
+    225
+  ],
+  "python": "3.10.20",
+  "platform": {
+    "system": "macOS",
+    "version": "27.0",
+    "architecture": "arm64"
+  },
+  "packages": {
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "opencv-python-headless": "4.9.0.80",
+    "pillow": "12.3.0",
+    "rdkit-pypi": "2022.9.5",
+    "openpyxl": "3.1.5",
+    "torch": "1.13.1",
+    "torchvision": "0.14.1",
+    "MolScribe": "1.1.1",
+    "huggingface_hub": "1.21.0"
+  },
+  "tesseract": "tesseract 5.5.2",
+  "model": {
+    "repository": "yujieq/MolScribe",
+    "revision": "a0189776b7415b82795c7ee81eed311bf5c8724b",
+    "checkpoint": "swin_base_char_aux_1m.pth",
+    "checkpoint_bytes": 1134940406,
+    "checkpoint_sha256": "6f0df56fa32b5ffc21f8c7f311ef333da522f590bf5622e966c6bcb1f2d9ea1d",
+    "device": "cpu",
+    "new_weight_downloads": false
+  },
+  "recognition_attempts": [
+    {
+      "policy": "strict",
+      "variants": [
+        "raw",
+        "enhanced",
+        "morph"
+      ],
+      "outcome": "no_variant_consensus"
+    },
+    {
+      "policy": "best-effort",
+      "variants": [
+        "raw",
+        "enhanced",
+        "morph"
+      ],
+      "outcome": "pending_candidate_then_rejected_by_source_review"
+    }
+  ],
+  "environment_recovery": "SciPy 1.15.3 native loading error; verified 1.13.1 installed in the same Python environment; full preflight repeated before resuming.",
+  "correction": {
+    "basis": "source image and PubChem CID 7031",
+    "method": "SMILES through chemdraw_fallback.py apply; regenerated comparison inspected"
+  },
+  "final": {
+    "smiles": "CN(C)c1ccc(C(=O)c2ccc(N(C)C)cc2)cc1",
+    "inchikey": "VVBLNCFGVYUYGU-UHFFFAOYSA-N",
+    "status": "success",
+    "confidence": "high"
+  },
+  "script_sha256": {
+    "chemdraw_fallback.py": "8c7ddb2e8323b90db143721208a8a6b1b20fd94974b3cabad835f49ca9e0dcce",
+    "finalize_source_folder_results.py": "a6bfe72559b9fe46dbacdd6e55f15f992e7fc2e82c3e55683a363045d7a2c4d0",
+    "make_reports.py": "1d24dead71facd42c68fc1fa415f15d61274c3e12fb34b1045e36bb07b524c5c",
+    "render_smiles.py": "34ab8c8b2b8ccc62a5357452aa0645e9706d0b4815390efdeabc247c1eb2dd9c",
+    "run_source_folder_to_smiles.py": "bf1a116e91fce36da522bca5a234f4f6717551e9b40e9f62155a91575a1f7c48",
+    "smiles_auto.py": "12306dcbed43c3708c8ddf68db1b0df47fd64b8d6dca061ac07f581ea8c6eb89",
+    "smiles_core.py": "c906885b810f0f6ad63049abf7594087152d23e5446c65ac4f5398e3b8bf090f",
+    "structure_predict.py": "11706f7edfaec898d3622cfb6c3b0a25d165cb4cccdc0dd3ae36506253c4f2ac",
+    "text_lookup.py": "b919994d293e768bd24f62500073dec5fcd8ebe70901387a1fd8fe31eccde8ec",
+    "validate_setup.py": "5915ba76afa0a8168123bd02dea2dbb5cac91cbffe265c4735395c10560025f4"
+  },
+  "publication_note": "Publication identifiers and generated image labels use example001; recognition predictions and reviewed structures are unchanged."
+}

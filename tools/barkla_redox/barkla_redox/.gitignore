@@ -1,0 +1,31 @@
+# Runtime data
+/inputs/
+/calculations/
+/results/
+
+# Local scratch and caches
+/tmp/
+/cache/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local environments and secrets
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+*.key
+*.pem
+
+# macOS and editor leftovers
+.DS_Store
+.vscode/
+*.swp
+*~

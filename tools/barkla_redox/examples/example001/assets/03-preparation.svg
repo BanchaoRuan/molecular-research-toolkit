@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="905" viewBox="0 0 1120 905" role="img" aria-labelledby="title desc">
+<title id="title">example001: Prepare the inputs</title>
+<desc id="desc">Current-release example | Re-typeset terminal text. Commands and resource preview use release defaults. This is a usage illustration, not a captured new calculation. A complete copyable transcript accompanies the image.</desc>
+<rect x="1" y="1" width="1118" height="903" rx="12" fill="#ffffff" stroke="#c8c8c8"/>
+<path d="M13 1 H1107 Q1119 1 1119 13 V76 H1 V13 Q1 1 13 1" fill="#f2f2f2"/>
+<text x="36" y="33" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="600" fill="#111111">03 / Prepare the inputs</text>
+<text x="36" y="58" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#555555">Current-release example | Re-typeset terminal text</text>
+<g font-family="DejaVu Sans Mono,Menlo,Consolas,monospace" font-size="21" fill="#111111" xml:space="preserve">
+<text x="36" y="112">*** Open Babel Warning in ReadMolecule</text>
+<text x="36" y="143">  Problems reading an XYZ file: Cannot read the first line.</text>
+<text x="36" y="174">10 molecules converted</text>
+<text x="36" y="205">Conformers found: 10</text>
+<text x="36" y="236">Selected conformer index: 2</text>
+<text x="36" y="267">Selected conformer energy: 301.726</text>
+<text x="36" y="298">Prepared coordinate: molecule_id=example001</text>
+<text x="36" y="329">  smiles=CN(C)c1ccc(C(=O)c2ccc(N(C)C)cc2)cc1</text>
+<text x="36" y="360">Coordinate status: success for molecule_id=example001</text>
+<text x="36" y="391">Finalizing coordinate snapshot...</text>
+<text x="36" y="422">Verified frozen coordinate snapshot: 1 molecules</text>
+<text x="36" y="453">Verified frozen coordinate snapshot: 1 molecules</text>
+<text x="36" y="484">Preparing method [1/1]: molecule_id=example001</text>
+<text x="36" y="515">Status: success for molecule_id=example001</text>
+<text x="36" y="546">Batch preparation finished</text>
+<text x="36" y="577">Total molecules: 1</text>
+<text x="36" y="608">Expected Gaussian jobs: 3</text>
+<text x="36" y="639">Successful preparations: 1</text>
+<text x="36" y="670">Prepared Gaussian jobs: 3</text>
+<text x="36" y="701">Failed preparations: 0</text>
+<text x="36" y="732">Preparation complete.</text>
+<text x="36" y="763">Preparation log: &lt;runtime&gt;/calculations/20000101_example001/</text>
+<text x="36" y="794">  B3LYP__6-31Gd__IEFPCM/preparation.log</text>
+<text x="36" y="825">Submit script: &lt;runtime&gt;/calculations/20000101_example001/</text>
+<text x="36" y="856">  B3LYP__6-31Gd__IEFPCM/submit/submit.sh</text>
+</g></svg>

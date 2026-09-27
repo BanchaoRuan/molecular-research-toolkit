@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="1370" viewBox="0 0 1120 1370" role="img" aria-labelledby="title desc">
+<title id="title">example001: Review the preparation</title>
+<desc id="desc">Current-release example | Re-typeset terminal text. Commands and resource preview use release defaults. This is a usage illustration, not a captured new calculation. A complete copyable transcript accompanies the image.</desc>
+<rect x="1" y="1" width="1118" height="1368" rx="12" fill="#ffffff" stroke="#c8c8c8"/>
+<path d="M13 1 H1107 Q1119 1 1119 13 V76 H1 V13 Q1 1 13 1" fill="#f2f2f2"/>
+<text x="36" y="33" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="600" fill="#111111">02 / Review the preparation</text>
+<text x="36" y="58" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#555555">Current-release example | Re-typeset terminal text</text>
+<g font-family="DejaVu Sans Mono,Menlo,Consolas,monospace" font-size="21" fill="#111111" xml:space="preserve">
+<text x="36" y="112">Resolved customization preview</text>
+<text x="36" y="143">======================================</text>
+<text x="36" y="174">Input file: &lt;runtime&gt;/inputs/20000101_example001.smi</text>
+<text x="36" y="205">Molecule count: 1</text>
+<text x="36" y="236">Selected states: base oxidized reduced</text>
+<text x="36" y="267">  base: charge offset +0, multiplicity 1</text>
+<text x="36" y="298">  oxidized: charge offset +1, multiplicity 2</text>
+<text x="36" y="329">  reduced: charge offset -1, multiplicity 2</text>
+<text x="36" y="360">Gaussian jobs: 3</text>
+<text x="36" y="391">Functional: B3LYP -&gt; B3LYP</text>
+<text x="36" y="422">Basis set: 6-31Gd -&gt; 6-31G(d)</text>
+<text x="36" y="453">Solvation model: IEFPCM -&gt; SCRF=(Solvent={solvent})</text>
+<text x="36" y="484">Walltime: 120h -&gt; 5-00:00:00</text>
+<text x="36" y="515">Route keywords: opt freq</text>
+<text x="36" y="546">CPU cores: 4</text>
+<text x="36" y="577">Gaussian memory: 4000MW</text>
+<text x="36" y="608">Nodes: 1</text>
+<text x="36" y="639">Tasks: 1</text>
+<text x="36" y="670">Partition: troisi</text>
+<text x="36" y="701">Method name: B3LYP__6-31Gd__IEFPCM</text>
+<text x="36" y="732">Method publication mode: new</text>
+<text x="36" y="763">Batch copy: &lt;runtime&gt;/calculations/20000101_example001/20000101_example001.smi</text>
+<text x="36" y="794">Coordinate mode: create</text>
+<text x="36" y="825">Coordinate snapshot: &lt;runtime&gt;/calculations/20000101_example001/coordinates</text>
+<text x="36" y="856">Coordinates already valid: 0</text>
+<text x="36" y="887">Coordinates to generate: 1</text>
+<text x="36" y="918">Open Babel required: yes</text>
+<text x="36" y="949">Calculation directory: &lt;runtime&gt;/calculations/20000101_example001/</text>
+<text x="36" y="980">  B3LYP__6-31Gd__IEFPCM</text>
+<text x="36" y="1011">Work directory: &lt;runtime&gt;/calculations/20000101_example001/</text>
+<text x="36" y="1042">  B3LYP__6-31Gd__IEFPCM/work</text>
+<text x="36" y="1073">Slurm stdout/stderr directory: &lt;runtime&gt;/calculations/20000101_example001/</text>
+<text x="36" y="1104">  B3LYP__6-31Gd__IEFPCM/logs</text>
+<text x="36" y="1135">Submit directory: &lt;runtime&gt;/calculations/20000101_example001/</text>
+<text x="36" y="1166">  B3LYP__6-31Gd__IEFPCM/submit</text>
+<text x="36" y="1197">Preparation log: &lt;runtime&gt;/calculations/20000101_example001/</text>
+<text x="36" y="1228">  B3LYP__6-31Gd__IEFPCM/preparation.log</text>
+<text x="36" y="1259">Results directory: &lt;runtime&gt;/results/20000101_example001/B3LYP__6-31Gd__IEFPCM</text>
+<text x="36" y="1290">======================================</text>
+<text x="36" y="1321">Proceed with this preparation? (y/n): y</text>
+</g></svg>

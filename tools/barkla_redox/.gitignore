@@ -1,0 +1,31 @@
+# Private development material is not part of the public repository.
+/tests/
+/maintenance/
+
+# Runtime data and private calculation artifacts
+/barkla_redox/inputs/
+/barkla_redox/calculations/
+/barkla_redox/results/
+/barkla_redox/tmp/
+/barkla_redox/cache/
+*.log
+*.chk
+*.fchk
+*.rwf
+
+# Local settings, credentials, caches and desktop metadata
+.env
+.env.*
+*.key
+*.pem
+.venv/
+venv/
+.DS_Store
+__MACOSX/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.vscode/
+.idea/
+*.swp
+*~

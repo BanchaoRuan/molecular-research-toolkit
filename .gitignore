@@ -1,0 +1,38 @@
+# Runtime output at the repository root; keep nested published examples.
+/workspace/
+/review/
+
+# Local environments, caches and operating-system metadata.
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.inspect.ndjson
+.conda/
+.venv/
+node_modules/
+
+# Personal environment files and common credential containers.
+.env
+.env.*
+.netrc
+.npmrc
+.pypirc
+.ssh/
+.aws/
+.azure/
+.gcloud/
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_dsa*
+id_ecdsa*
+id_ed25519*
+credentials*
+secrets*
+tokens*
+cookies*
+auth.json

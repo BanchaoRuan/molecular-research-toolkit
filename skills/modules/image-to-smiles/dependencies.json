@@ -1,0 +1,83 @@
+{
+  "python": ">=3.10,<3.11",
+  "system": {
+    "tesseract": ">=5"
+  },
+  "packages": [
+    {
+      "module": "packaging",
+      "distribution": "packaging",
+      "group": "core"
+    },
+    {
+      "module": "numpy",
+      "distribution": "numpy",
+      "group": "core"
+    },
+    {
+      "module": "scipy",
+      "distribution": "scipy",
+      "group": "core"
+    },
+    {
+      "module": "cv2",
+      "distribution": "opencv-python-headless",
+      "group": "core"
+    },
+    {
+      "module": "cv2",
+      "distribution": "opencv-python",
+      "group": "core"
+    },
+    {
+      "module": "PIL",
+      "distribution": "pillow",
+      "group": "core"
+    },
+    {
+      "module": "rdkit",
+      "distribution": "rdkit-pypi",
+      "group": "core"
+    },
+    {
+      "module": "openpyxl",
+      "distribution": "openpyxl",
+      "group": "core"
+    },
+    {
+      "module": "torch",
+      "distribution": "torch",
+      "group": "models"
+    },
+    {
+      "module": "torchvision",
+      "distribution": "torchvision",
+      "group": "models"
+    },
+    {
+      "module": "huggingface_hub",
+      "distribution": "huggingface_hub",
+      "group": "models"
+    },
+    {
+      "module": "molscribe",
+      "distribution": "MolScribe",
+      "group": "models"
+    },
+    {
+      "module": "DECIMER",
+      "distribution": "decimer",
+      "group": "models"
+    },
+    {
+      "module": "tensorflow",
+      "distribution": "tensorflow",
+      "group": "models"
+    },
+    {
+      "module": "keras",
+      "distribution": "keras",
+      "group": "models"
+    }
+  ]
+}

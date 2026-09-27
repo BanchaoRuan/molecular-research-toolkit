@@ -1,0 +1,9 @@
+{
+  "cid": 7031,
+  "result": {
+    "smiles": "CN(C)C1=CC=C(C=C1)C(=O)C2=CC=C(C=C2)N(C)C",
+    "inchikey": "VVBLNCFGVYUYGU-UHFFFAOYSA-N"
+  },
+  "canonical": "CN(C)c1ccc(C(=O)c2ccc(N(C)C)cc2)cc1",
+  "inchikey": "VVBLNCFGVYUYGU-UHFFFAOYSA-N"
+}

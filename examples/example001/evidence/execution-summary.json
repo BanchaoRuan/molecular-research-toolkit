@@ -1,0 +1,177 @@
+{
+  "description": "Sanitized event summary, not raw task log. Paths and dates omitted.",
+  "events": [
+    {
+      "data": {
+        "image_count": 1,
+        "input_dir": "example001_prepare_single_molecule",
+        "review_dir": "YYYYMMDD_example001_smiles"
+      },
+      "image_id": "",
+      "message": "workspace initialized",
+      "stage": "task_start",
+      "status": "complete"
+    },
+    {
+      "data": {
+        "candidate_count": 0,
+        "evidence": "example001.json"
+      },
+      "image_id": "example001",
+      "message": "no_valid_text_candidate",
+      "stage": "text_lookup",
+      "status": "no_candidate"
+    },
+    {
+      "data": {
+        "engine": "molscribe",
+        "evidence": "example001.json",
+        "route": "printed"
+      },
+      "image_id": "example001",
+      "message": "no_variant_consensus",
+      "stage": "structure_predict",
+      "status": "no_candidate"
+    },
+    {
+      "data": {
+        "path": "example001.mol",
+        "seed_smiles": "CNc1ccc(C(=O)c2ccc(N(C)C)cc2)cc1"
+      },
+      "image_id": "example001",
+      "message": "fallback MOL written",
+      "stage": "chemdraw_prepare",
+      "status": "complete"
+    },
+    {
+      "data": {},
+      "image_id": "example001",
+      "message": "candidate generation finished without an accepted structure",
+      "stage": "candidate_state",
+      "status": "failure"
+    },
+    {
+      "data": {
+        "image_ids": [
+          "example001"
+        ],
+        "retry_policy": "best-effort"
+      },
+      "image_id": "",
+      "message": "retry first-pass candidate-generation failures once",
+      "stage": "bounded_recovery",
+      "status": "start"
+    },
+    {
+      "data": {
+        "candidate_count": 0,
+        "evidence": "example001.json"
+      },
+      "image_id": "example001",
+      "message": "no_valid_text_candidate",
+      "stage": "text_lookup",
+      "status": "no_candidate"
+    },
+    {
+      "data": {
+        "engine": "molscribe",
+        "evidence": "example001.json",
+        "route": "printed"
+      },
+      "image_id": "example001",
+      "message": "best_effort_single_variant",
+      "stage": "structure_predict",
+      "status": "candidate"
+    },
+    {
+      "data": {},
+      "image_id": "example001",
+      "message": "source comparison required",
+      "stage": "candidate_state",
+      "status": "pending"
+    },
+    {
+      "data": {
+        "retry_policy": "best-effort",
+        "total_candidate_attempts": 2
+      },
+      "image_id": "example001",
+      "message": "bounded retry produced a candidate; source comparison required",
+      "stage": "bounded_recovery",
+      "status": "candidate_found"
+    },
+    {
+      "data": {
+        "path": "example001.mol",
+        "seed_smiles": "CNc1ccc(C(=O)c2ccc(N(C)C)cc2)cc1"
+      },
+      "image_id": "example001",
+      "message": "required ChemDraw input MOL written",
+      "stage": "chemdraw_required",
+      "status": "complete"
+    },
+    {
+      "data": {
+        "failure_ids": [],
+        "pending_ids": [
+          "example001"
+        ]
+      },
+      "image_id": "",
+      "message": "pending=1; failure=0",
+      "stage": "candidate_batch",
+      "status": "review_required"
+    },
+    {
+      "data": {},
+      "image_id": "example001",
+      "message": "source_match=no; confidence=low",
+      "stage": "source_review",
+      "status": "failure"
+    },
+    {
+      "data": {
+        "path": "example001.mol",
+        "seed_smiles": "CNc1ccc(C(=O)c2ccc(N(C)C)cc2)cc1"
+      },
+      "image_id": "example001",
+      "message": "fallback MOL written",
+      "stage": "chemdraw_prepare",
+      "status": "complete"
+    },
+    {
+      "data": {
+        "mol_path": "example001.mol"
+      },
+      "image_id": "example001",
+      "message": "corrected candidate rendered; source comparison required",
+      "stage": "chemdraw_apply",
+      "status": "pending_review"
+    },
+    {
+      "data": {},
+      "image_id": "example001",
+      "message": "source_match=yes; confidence=high",
+      "stage": "source_review",
+      "status": "success"
+    },
+    {
+      "data": {
+        "review_dir": "YYYYMMDD_example001_smiles"
+      },
+      "image_id": "",
+      "message": "all candidate rows are terminal",
+      "stage": "finalize",
+      "status": "start"
+    },
+    {
+      "data": {
+        "review_dir": "YYYYMMDD_example001_smiles"
+      },
+      "image_id": "",
+      "message": "review bundle published",
+      "stage": "finalize",
+      "status": "complete"
+    }
+  ]
+}

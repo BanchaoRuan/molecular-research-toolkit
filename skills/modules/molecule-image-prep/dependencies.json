@@ -1,0 +1,20 @@
+{
+  "python": ">=3.10",
+  "packages": [
+    {
+      "module": "PIL",
+      "distribution": "pillow",
+      "group": "core"
+    },
+    {
+      "module": "openpyxl",
+      "distribution": "openpyxl",
+      "group": "core"
+    },
+    {
+      "module": "packaging",
+      "distribution": "packaging",
+      "group": "core"
+    }
+  ]
+}

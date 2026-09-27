@@ -1,0 +1,10 @@
+# Optional shared environment. Activate manually; never enable automatic base activation.
+name: molecular-research-toolkit
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - tesseract>=5
+# Then run scripts/environment.py install --component all --apply.
+# Component requirements.txt files are the single source of package pins.

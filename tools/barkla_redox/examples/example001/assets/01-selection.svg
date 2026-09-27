@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="1060" viewBox="0 0 1120 1060" role="img" aria-labelledby="title desc">
+<title id="title">example001: Select a calculation</title>
+<desc id="desc">Current-release example | Re-typeset terminal text. Commands and resource preview use release defaults. This is a usage illustration, not a captured new calculation. A complete copyable transcript accompanies the image.</desc>
+<rect x="1" y="1" width="1118" height="1058" rx="12" fill="#ffffff" stroke="#c8c8c8"/>
+<path d="M13 1 H1107 Q1119 1 1119 13 V76 H1 V13 Q1 1 13 1" fill="#f2f2f2"/>
+<text x="36" y="33" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="600" fill="#111111">01 / Select a calculation</text>
+<text x="36" y="58" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#555555">Current-release example | Re-typeset terminal text</text>
+<g font-family="DejaVu Sans Mono,Menlo,Consolas,monospace" font-size="21" fill="#111111" xml:space="preserve">
+<text x="36" y="112">$ bash scripts/redox_batch.sh inputs/20000101_example001.smi</text>
+<text x="36" y="143"></text>
+<text x="36" y="174">Select functional:</text>
+<text x="36" y="205">  1) M062X -&gt; M062X</text>
+<text x="36" y="236">  2) B3LYP -&gt; B3LYP</text>
+<text x="36" y="267">  3) wB97XD -&gt; wB97XD</text>
+<text x="36" y="298">Enter a number (1-3): 2</text>
+<text x="36" y="329"></text>
+<text x="36" y="360">Select basis set:</text>
+<text x="36" y="391">  1) 6-31Gd -&gt; 6-31G(d)</text>
+<text x="36" y="422">  2) def2TZVP -&gt; def2TZVP</text>
+<text x="36" y="453">  3) def2SVP -&gt; def2SVP</text>
+<text x="36" y="484">  4) 6-31plusGdp -&gt; 6-31+G(d,p)</text>
+<text x="36" y="515">Enter a number (1-4): 1</text>
+<text x="36" y="546"></text>
+<text x="36" y="577">Select solvation model:</text>
+<text x="36" y="608">  1) IEFPCM -&gt; SCRF=(Solvent={solvent})</text>
+<text x="36" y="639">  2) CPCM -&gt; SCRF=(CPCM,Solvent={solvent})</text>
+<text x="36" y="670">Enter a number (1-2): 1</text>
+<text x="36" y="701">Prepare base for every molecule? (y/n): y</text>
+<text x="36" y="732">Prepare oxidized for every molecule? (y/n): y</text>
+<text x="36" y="763">Prepare reduced for every molecule? (y/n): y</text>
+<text x="36" y="794"></text>
+<text x="36" y="825">Select walltime:</text>
+<text x="36" y="856">  1) 24h -&gt; 1-00:00:00</text>
+<text x="36" y="887">  2) 48h -&gt; 2-00:00:00</text>
+<text x="36" y="918">  3) 72h -&gt; 3-00:00:00</text>
+<text x="36" y="949">  4) 96h -&gt; 4-00:00:00</text>
+<text x="36" y="980">  5) 120h -&gt; 5-00:00:00</text>
+<text x="36" y="1011">Enter a number (1-5): 5</text>
+</g></svg>

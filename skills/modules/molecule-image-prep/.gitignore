@@ -1,0 +1,17 @@
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+*.log
+*.tmp
+
+# Runtime materials do not belong in the release package.
+/workspace/
+/review/

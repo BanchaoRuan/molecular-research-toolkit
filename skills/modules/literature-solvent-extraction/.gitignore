@@ -1,0 +1,24 @@
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local environments and caches
+.env
+.env.*
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+
+# Office temporary files
+~$*.xlsx
+~$*.xls
+
+# Local runtime output (allow published examples in nested directories)
+/workspace/
+/review/
+/results/

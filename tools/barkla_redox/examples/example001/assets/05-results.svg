@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="843" viewBox="0 0 1120 843" role="img" aria-labelledby="title desc">
+<title id="title">example001: Extract G298</title>
+<desc id="desc">Current-release example | Log-verified reference values. Commands and resource preview use release defaults. This is a usage illustration, not a captured new calculation. A complete copyable transcript accompanies the image.</desc>
+<rect x="1" y="1" width="1118" height="841" rx="12" fill="#ffffff" stroke="#c8c8c8"/>
+<path d="M13 1 H1107 Q1119 1 1119 13 V76 H1 V13 Q1 1 13 1" fill="#f2f2f2"/>
+<text x="36" y="33" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="600" fill="#111111">05 / Extract G298</text>
+<text x="36" y="58" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#555555">Current-release example | Log-verified reference values</text>
+<g font-family="DejaVu Sans Mono,Menlo,Consolas,monospace" font-size="21" fill="#111111" xml:space="preserve">
+<text x="36" y="112">$ python3 scripts/extract_G298_batch.py</text>
+<text x="36" y="143">  calculations/20000101_example001/B3LYP__6-31Gd__IEFPCM</text>
+<text x="36" y="174"></text>
+<text x="36" y="205">Batch input: &lt;runtime&gt;/calculations/20000101_example001/</text>
+<text x="36" y="236">  20000101_example001.smi</text>
+<text x="36" y="267">Calculation method: &lt;runtime&gt;/calculations/20000101_example001/</text>
+<text x="36" y="298">  B3LYP__6-31Gd__IEFPCM</text>
+<text x="36" y="329">Selected states: base, oxidized, reduced</text>
+<text x="36" y="360">Number of molecules: 1</text>
+<text x="36" y="391"></text>
+<text x="36" y="422">Quick status:</text>
+<text x="36" y="453">complete: 1</text>
+<text x="36" y="484">needs_check: 0</text>
+<text x="36" y="515"></text>
+<text x="36" y="546">Excel-ready G298:</text>
+<text x="36" y="577">molecule_id  G_base       G_oxidized   G_reduced    overall_status</text>
+<text x="36" y="608">example001   -844.297425  -844.109724  -844.359728  complete</text>
+<text x="36" y="639"></text>
+<text x="36" y="670">No molecules need manual check.</text>
+<text x="36" y="701"></text>
+<text x="36" y="732">Overwritten per-molecule TSV files:</text>
+<text x="36" y="763">&lt;runtime&gt;/results/20000101_example001/B3LYP__6-31Gd__IEFPCM/example001/</text>
+<text x="36" y="794">  G298.tsv</text>
+</g></svg>

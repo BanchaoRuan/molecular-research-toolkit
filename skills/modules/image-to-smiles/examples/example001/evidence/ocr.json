@@ -1,0 +1,11 @@
+{
+  "candidate_count": 0,
+  "candidates": [],
+  "chosen_inchikey": "",
+  "chosen_smiles": "",
+  "image_id": "example001",
+  "ocr_text": "oO\nVie2N ; NMez",
+  "reason": "no_valid_text_candidate",
+  "recognition_method": "text:none",
+  "tesseract_error": ""
+}

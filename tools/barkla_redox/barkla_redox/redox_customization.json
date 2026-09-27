@@ -1,0 +1,89 @@
+{
+  "state_options": [
+    {
+      "label": "base",
+      "charge_offset": 0,
+      "multiplicity": 1
+    },
+    {
+      "label": "oxidized",
+      "charge_offset": 1,
+      "multiplicity": 2
+    },
+    {
+      "label": "reduced",
+      "charge_offset": -1,
+      "multiplicity": 2
+    }
+  ],
+  "functional_options": [
+    {
+      "label": "M062X",
+      "value": "M062X"
+    },
+    {
+      "label": "B3LYP",
+      "value": "B3LYP"
+    },
+    {
+      "label": "wB97XD",
+      "value": "wB97XD"
+    }
+  ],
+  "basis_set_options": [
+    {
+      "label": "6-31Gd",
+      "value": "6-31G(d)"
+    },
+    {
+      "label": "def2TZVP",
+      "value": "def2TZVP"
+    },
+    {
+      "label": "def2SVP",
+      "value": "def2SVP"
+    },
+    {
+      "label": "6-31plusGdp",
+      "value": "6-31+G(d,p)"
+    }
+  ],
+  "solvation_model_options": [
+    {
+      "label": "IEFPCM",
+      "route": "SCRF=(Solvent={solvent})"
+    },
+    {
+      "label": "CPCM",
+      "route": "SCRF=(CPCM,Solvent={solvent})"
+    }
+  ],
+  "walltime_options": [
+    {
+      "label": "24h",
+      "value": "1-00:00:00"
+    },
+    {
+      "label": "48h",
+      "value": "2-00:00:00"
+    },
+    {
+      "label": "72h",
+      "value": "3-00:00:00"
+    },
+    {
+      "label": "96h",
+      "value": "4-00:00:00"
+    },
+    {
+      "label": "120h",
+      "value": "5-00:00:00"
+    }
+  ],
+  "route_keywords": "opt freq",
+  "cpu_cores": 4,
+  "gaussian_memory": "4000MW",
+  "nodes": 1,
+  "ntasks": 1,
+  "partition": "troisi"
+}
